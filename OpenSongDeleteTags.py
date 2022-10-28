@@ -3,7 +3,7 @@ import re
 in_path = input("Specify directory where files are located: ")
 for inFile in os.listdir(in_path):
     try:
-        global_path = in_path + "\\" + inFile
+        global_path = in_path + "/" + inFile
         print(global_path)
 
         content = ""

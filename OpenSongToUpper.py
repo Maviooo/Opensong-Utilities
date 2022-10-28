@@ -1,10 +1,9 @@
 import os
-import re
 in_path = input("Specify directory where files are located: ")
 content = ""
 for inFile in os.listdir(in_path):
     try:
-        global_path = in_path + "\\" + inFile
+        global_path = in_path + "/" + inFile
         print(global_path)
 
         f = open(global_path,mode= "r" ,encoding="utf8")
