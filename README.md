@@ -1,8 +1,8 @@
-## Opensong-Utilities
+# Opensong-Utilities
 
 Repo with my magical scripts for quick editing large amounts of files from opensong
 
-# ConvertOpensongToPropresenter.py
+## ConvertOpensongToPropresenter.py
 
 > [!IMPORTANT]
 > This is a development script, use it for your responsibility!!!
