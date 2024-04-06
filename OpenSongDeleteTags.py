@@ -11,7 +11,7 @@ for inFile in os.listdir(in_path):
         content = f.read()
         f.close()
     except:
-        print("Error opening the file")
+        print("Error opening the file ", global_path)
 
     try:
         content_striped = ""
@@ -26,13 +26,13 @@ for inFile in os.listdir(in_path):
         content_striped2 = content_striped2.replace("/:", "")
 
     except:
-        print("Error processing file")
+        print("Error processing file ", global_path)
 
     try:
         f= open(global_path,mode="w",encoding="utf8")
         f.write(content_striped2)
         f.close()
     except:
-        print("Error closing the file")
+        print("Error closing the file ", global_path)
 print("Done!")
 
